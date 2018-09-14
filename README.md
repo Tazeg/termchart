@@ -10,7 +10,7 @@ Draw ascii line charts in terminal.
 pip3 install termchart
 ```
 
-### USage
+### Usage
 
 Create a Python file :
 
