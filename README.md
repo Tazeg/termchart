@@ -2,7 +2,7 @@
 
 Draw ascii line charts in terminal.
 
-![termchart_screenshot](termchart_screenshot.png)
+![termchart_screenshot](https://raw.githubusercontent.com/Tazeg/termchart/master/termchart_screenshot.png)
 
 ### Install
 
