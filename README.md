@@ -28,9 +28,27 @@ graph.setDot('|')
 ```
 
 Change the width and height (default cols is 160x50)
+
 ```python
 graph.setCols(200)
 graph.setRows(40)
+```
+
+Add values whenever you need it with `addData(<Float>)`. Here is a full example for a live graph with random values :
+
+```python
+import termchart
+import time
+import os
+from random import randint
+
+graph = termchart.Graph([])
+while True:
+    rand = randint(0, 9)
+    graph.addData(rand)
+    graph.draw()
+    time.sleep(1)
+    os.system('cls' if os.name == 'nt' else 'clear')
 ```
 
 ### Donate

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="termchart",
-    version="0.0.2",
+    version="0.0.4",
     author="@JeffProd",
     author_email="termchart@jeffprod.com",
     description="A tool to draw ascii line chart in terminal",
